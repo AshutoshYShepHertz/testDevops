@@ -4,6 +4,23 @@ grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
 grails.project.target.level = 1.6
 grails.project.source.level = 1.6
+
+
+grails.project.repos.default = "repo"
+
+grails {
+    project {
+        repos {
+            AT {
+                url = "http://107.189.67.87:8080/artifactory/repo/"
+                username = "admin"
+                password = "password"
+            }
+        }
+    }
+}
+
+grails.project.groupId = "org.shephertz"
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
 // uncomment (and adjust settings) to fork the JVM to isolate classpaths
@@ -59,5 +76,6 @@ grails.project.dependency.resolution = {
         runtime ":database-migration:1.3.2"
 
         compile ':cache:1.0.1'
+        build ":release:3.0.1"
     }
 }
