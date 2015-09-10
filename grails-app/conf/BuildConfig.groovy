@@ -11,7 +11,7 @@ grails.project.repos.default = "ext-release-local"
 grails {
     project {
         repos {
-            AT {
+            ext-release-local {
                 url = "http://107.189.67.87:8080/ext-release-local/"
                 username = "admin"
                 password = "password"
