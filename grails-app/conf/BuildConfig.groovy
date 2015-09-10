@@ -6,13 +6,13 @@ grails.project.target.level = 1.6
 grails.project.source.level = 1.6
 
 
-grails.project.repos.default = "repo"
+grails.project.repos.default = "simple/libs-snapshot-local/"
 
 grails {
     project {
         repos {
             AT {
-                url = "http://107.189.67.87:8080/artifactory/repo/"
+                url = "http://107.189.67.87:8080/artifactory/simple/libs-snapshot-local/"
                 username = "admin"
                 password = "password"
             }
@@ -20,7 +20,7 @@ grails {
     }
 }
 
-grails.project.groupId = "org.shephertz"
+grails.project.groupId = "org.grails"
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
 // uncomment (and adjust settings) to fork the JVM to isolate classpaths
