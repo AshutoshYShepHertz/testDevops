@@ -6,13 +6,13 @@ grails.project.target.level = 1.6
 grails.project.source.level = 1.6
 
 
-grails.project.repos.default = "simple/libs-snapshot-local/"
+grails.project.repos.default = "ext-release-local"
 
 grails {
     project {
         repos {
             AT {
-                url = "http://107.189.67.87:8080/artifactory/simple/libs-snapshot-local/"
+                url = "http://107.189.67.87:8080/ext-release-local/"
                 username = "admin"
                 password = "password"
             }
@@ -50,7 +50,7 @@ grails.project.dependency.resolution = {
 
     // Whether to inherit repository definitions from plugins
 
-    mavenRepo id:"Artifactory" , url:"http://107.189.67.87:8080/artifactory/simple/libs-snapshot-local/"
+    mavenRepo id:"Artifactory" , url:"http://107.189.67.87:8080/ext-release-local/"
 
         // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
         //mavenRepo "http://snapshots.repository.codehaus.org"
