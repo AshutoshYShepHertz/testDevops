@@ -6,13 +6,13 @@ grails.project.target.level = 1.6
 grails.project.source.level = 1.6
 
 
-grails.project.repos.default = "ext-release-local"
+grails.project.repos.default = "AT"
 
 grails {
     project {
         repos {
-            ext-release-local {
-                url = "http://107.189.67.87:8080/ext-release-local/"
+            AT {
+                url = "http://107.189.67.87:8080/AT/"
                 username = "admin"
                 password = "password"
             }
@@ -50,7 +50,7 @@ grails.project.dependency.resolution = {
 
     // Whether to inherit repository definitions from plugins
 
-    mavenRepo id:"Artifactory" , url:"http://107.189.67.87:8080/ext-release-local/"
+    mavenRepo id:"Artifactory" , url:"http://107.189.67.87:8080/repo"
 
         // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
         //mavenRepo "http://snapshots.repository.codehaus.org"
