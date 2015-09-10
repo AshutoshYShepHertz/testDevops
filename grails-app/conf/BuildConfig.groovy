@@ -20,7 +20,7 @@ grails {
     }
 }
 
-grails.project.groupId = "org.grails"
+grails.project.groupId = "org.shephertz"
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 
 // uncomment (and adjust settings) to fork the JVM to isolate classpaths
