@@ -48,6 +48,10 @@ grails.project.dependency.resolution = {
         mavenLocal()
         mavenCentral()
 
+    // Whether to inherit repository definitions from plugins
+
+    mavenRepo id:"Artifactory" , url:"http://107.189.67.87:8080/artifactory/simple/libs-snapshot-local/"
+
         // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
         //mavenRepo "http://snapshots.repository.codehaus.org"
         //mavenRepo "http://repository.codehaus.org"
